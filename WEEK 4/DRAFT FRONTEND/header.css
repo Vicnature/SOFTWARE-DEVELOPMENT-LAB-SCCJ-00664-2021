@@ -1,0 +1,66 @@
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body{
+    height:100vh;
+    max-width:100vw;
+    overflow-x: hidden;
+} */
+.overall-header{
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+    align-items:center;
+    width:100%;
+    /* border:2px solid blue; */
+    background:rgba(42,96,104,1);
+    padding:1%;
+}
+.overall-header .company-name{
+    /* border:2px solid green; */
+    color:white;
+    margin-left:10%;
+}
+
+.overall-header .navigation-list{
+    /* border:2px solid blue; */
+    display:flex;
+    /* border:2px solid blue; */
+    margin-left:19%;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+
+.overall-header ul{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* width:60%;  */
+    /* border:2px solid red; */
+}
+.overall-header ul li{
+    /* border:2px solid blue; */
+    position:relative;
+    transition:2s;
+    padding:4% 3%;
+    letter-spacing: 0.15rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:rgba(117, 170, 160, 1);
+    font-size:25px;
+}
+.overall-header ul li:hover{
+    background:red;
+}
+.overall-header ul li a{
+    text-decoration:none;
+    font-size: 15px;
+    color:white;
+}
+

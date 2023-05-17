@@ -1,0 +1,122 @@
+*,*::before,*::after{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    overflow-x: hidden;
+    /* background:url(pics/dawid-zawila--G3rw6Y02D0-unsplash.jpg); */
+    /* background-size: cover; */
+    /* background-position:center; */
+    min-height:100vh;
+    max-width:100vw;
+}
+
+.overall-container{
+    /* background:yellow; */
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.left-div,.right-div{
+    height:100%;
+    width:48%;
+    /* background:green; */
+    display:flex;
+    /* justify-content:center; */
+    flex-direction:column;
+    padding:2%; 
+}
+
+.project-title{
+    width:60%;
+    padding:5%;
+    margin-bottom:10%;
+    font-size:20px;
+    border:none;
+    box-shadow:0px 5px 4px rgba(0,0,0,.15);
+    background:rgba(0,0,0,.1);
+    margin-left:20%;
+
+}
+
+.left-div h1{
+    margin-left:20%;
+    font-size:28px;
+}
+.project-description{
+    margin-left:20%;
+    min-height:59%;
+    width:60%;
+    border:none;
+    padding:5%;
+    box-shadow:0px 5px 4px rgba(0,0,0,.15);
+    background:rgba(0,0,0,.1);
+ 
+}
+
+.project-title:hover,
+.project-title:focus,
+.project-description:hover,
+.project-description:focus{
+    outline:none;
+}
+
+.right-div{
+    /* border:2px solid red; */
+    margin-right:5%;
+}
+
+.action-level{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    /* border:3px solid red; */
+    height:25%;
+}
+
+.actions{
+    /* border:2px solid blue; */
+    height:100%;
+    width:55%;
+    position:relative;
+}
+
+.subtasks{
+    width:40%;
+    /* border:2px solid red; */
+}
+
+.actions input{
+    height:100%;
+    width:100%;
+    background:rgba(128,128,128,.3);
+    outline:none;
+    border:none;
+    box-shadow:0px 5px 5px rgba(0,0,0,.2);
+}
+
+.subtasks input{
+    background:rgba(128,128,128,.3);
+    margin:1%;
+    padding:3%;
+    width:100%;
+    outline:none;
+    border:none;
+    /* border:2px solid red; */
+    margin-bottom:5%;
+    box-shadow:0px 5px 5px rgba(0,0,0,.2);
+}
+
+.actions h1{
+    position:absolute;
+    top:-63%;
+}
+

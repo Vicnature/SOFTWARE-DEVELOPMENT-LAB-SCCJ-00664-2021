@@ -1,0 +1,50 @@
+*,*::before,*::after{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    /* justify-content:center; */
+    flex-direction:column;
+    align-items:center;
+    overflow-x: hidden;
+    /* background:url(pics/dawid-zawila--G3rw6Y02D0-unsplash.jpg); */
+    background-size: cover;
+    background-position:center;
+    min-height:100vh;
+    max-width:100vw;
+    /* font-size:35px; */
+
+}
+
+.title,.description,.subtasks,.actions{
+    background:rgba(128,128,128,.3);
+    margin:3%;
+    font-size:13px;
+    display:flex;
+    justify-content:center;
+    padding:5px;
+    /* background:yellow; */
+}
+
+.title{
+    width:50%;
+    height:7%;
+}
+.description,.subtasks,.actions{
+    width:70%;
+}
+
+.description{
+    height:30%;
+}
+
+.subtasks{
+    height:7%;
+}
+
+.actions{
+    height:15%;
+}

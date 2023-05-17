@@ -1,0 +1,168 @@
+/* FONTS */
+@font-face {
+    font-family: comic;
+    src: url(fonts/Breaking\ The\ Comic.ttf);
+}
+
+@font-face {
+    font-family: loud;
+    src: url(fonts/Comix\ Loud.ttf);
+}
+
+@font-face {
+    font-family:school ;
+    src: url(fonts/Happy\ School.ttf);
+}
+
+@font-face {
+    font-family: hey;
+    src: url(fonts/Hey\ Comic.ttf);
+}
+
+@font-face {
+    font-family:sausage;
+    src: url(fonts/Homemade\ Sausage.ttf);
+}
+
+@font-face {
+    font-family: bubble;
+    src: url(fonts/JandaManateeBubble.ttf);
+}
+
+@font-face {
+    font-family: pink;
+    src: url(fonts/PinkChicken-Regular.ttf);
+}
+@font-face {
+    font-family: road;
+    src: url(fonts/ROADSTORE\ Dafont.ttf);
+}
+@font-face {
+    font-family:ruthless ;
+    src: url(fonts/Ruthless.ttf);
+}
+
+
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* font-family:pink; */
+    /* letter-spacing:0.15rem; */
+}
+
+body{
+    height:100vh;
+    max-width:100vw;
+    flex-direction:column;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url(pics/Cool\ wallpaper.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+
+
+.overall-header{
+    position:absolute;
+    top:0;
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.overall-header ul{
+    width:100%;
+    z-index:1;
+}
+
+
+.forms{
+   display:flex;
+   justify-content:space-around;
+   align-items:center;
+   width:70%;
+   /* border:2px solid blue; */
+
+}
+.login-form, .sign-up{
+    width:47%;
+    /* border:2px solid red; */
+}
+
+form{
+    background:rgb(0,0,0,.8);
+    padding:2%;
+    box-shadow:0px 5px 4px rgba(0,0,0,.4);
+    border-radius:10px;
+    width:100%;
+    /* display:flex;
+    flex-direction:column;
+    align-items:center;
+ */
+}
+
+form h1{
+    font-size:medium;
+    color:white;
+    text-align: center;
+    font-size:25px;
+    letter-spacing:0.15rem;
+}
+
+form input{
+    width:100%;
+    background:rgb(173, 216, 230,.3);
+    border:none;
+    font-size:25px;
+    border-radius:10px;
+    padding:2% 4%;
+    margin:1% 0%;
+    transition:1s;
+    color:white;
+}
+
+form button{
+    width:100%;
+    border-radius: 5px;
+    outline:none;
+    border:none;
+    padding:2%;
+    margin:2% 0%;
+    font-weight:bold;
+    font-size:30px;
+    transition:0.45s;
+
+}
+
+form button:hover{
+    color:white;
+    background:green;
+    letter-spacing:0.25rem;
+}
+form input:hover,form input:focus{
+    outline:none;
+    color:white;
+    border:none;
+    background: rgb(0, 128, 0,.3);
+    
+}
+
+.page-title{
+    color:white;
+    /* border:2px solid red; */
+    /* position:absolute;
+    top:10%; */
+    /* left:5%; */
+    font-size:25px;
+    text-shadow:0px 5px 4px rgba(16, 16, 15, 0.9);
+}
+
+.page-title span{
+    text-shadow:0px 5px 4px rgba(113, 212, 63, 0.3);
+    text-decoration:underline;
+    color:greenyellow;
+}
